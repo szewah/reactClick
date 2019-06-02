@@ -1,20 +1,18 @@
 import React, { Component } from 'react'
 import './Cards.css'
 
-class Cards extends Component {
-    render() {
-        return (
-            <div key={this.props.id}>
-                <div className="card" onClick={() => this.props.cardCount(this.props.id)}>
-                    <div className="img-container">
-                        <img src={require ('../../images/' + this.props.image)} 
-                        className="img-fluid" alt={this.props.id}/>
-                    </div>
+const Cards = (props) => {
+    return (
+        <div key={props.id}>
+            <div className="card" onClick={() => props.cardCount(props.id)}>
+                <div className="img-container">
+                    <img src={require ('../../images/' + props.image)} 
+                    className="img-fluid" alt={props.id}/>
                 </div>
             </div>
-        )
-    }
-}
+        </div>
+    )
+};
 
 
 
