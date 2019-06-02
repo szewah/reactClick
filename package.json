@@ -1,8 +1,8 @@
 {
-    "homepage": "https://github.com/szewah/clickgame",
     "name": "clicky_game2-app",
     "version": "0.1.0",
     "private": true,
+    "homepage": "https://github.com/szewah/clickgame",
     "dependencies": {
         "gh-pages": "^2.0.1",
         "react": "^16.8.6",
