@@ -1,0 +1,18 @@
+.footer {
+    background: #6956af;
+    position: relative;
+    height: 70px;
+    padding: 8px;
+    width: 100%;
+    color: white;
+    overflow: auto;
+    margin-top: 50px;
+}
+
+.footer a {
+    color: white;
+}
+
+h5 {
+    padding: 15px 0 0 10px;
+}

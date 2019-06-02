@@ -1,0 +1,52 @@
+.container {
+    margin: 0 !important;
+}
+
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+    background: #5133a4;
+    position: fixed;
+    width: 100%;
+    height: 20%;
+    z-index: 1;
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+ul {
+    color: white;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    padding: 25px 50px;
+    list-style: none;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+@media screen and (max-width: 690px) {
+    .navbar {
+        height: 30%;
+    }
+    li {
+        font-size: 17px;
+    }
+    li {
+        display: block;
+        padding: 15px;
+        line-height: 5px;
+    }
+}
