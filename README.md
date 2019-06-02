@@ -13,7 +13,7 @@ react.js, html, css, boostrap
 
 ## Getting Started
 
-Clone/download the file, then...
+Download the file, then...
 
 ```
 npm install
