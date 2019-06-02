@@ -4,7 +4,7 @@ A simple react memory game where the user clicks on a card to score but cannot c
 on the same card more than once!
 
 
-https://szewah.github.io/reactClick/
+https://szewah.github.io/clickgame/
 
 
 ## Built With
