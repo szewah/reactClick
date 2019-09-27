@@ -13,7 +13,7 @@ on the same card more than once!
 
 react.js, html, css, boostrap
 
-## Getting Started
+## Installation
 
 Download the file, then...
 
