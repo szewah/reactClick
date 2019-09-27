@@ -11,7 +11,7 @@ on the same card more than once!
 
 ## Built With
 
-react.js, html, css, boostrap
+Reactjs, Html, CSS, Boostrap
 
 ## Installation
 
